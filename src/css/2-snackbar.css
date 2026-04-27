@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 360px;
+  margin: 0 auto;
+}
+
+.form > label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form input[type='number'] {
+  height: 40px;
+  padding: 8px 16px;
+  font-size: 16px;
+}
+
+.form fieldset {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  padding: 24px 16px 16px;
+  border: 1px solid #ccc;
+}
+
+.form fieldset label {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+.form button {
+  height: 40px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
